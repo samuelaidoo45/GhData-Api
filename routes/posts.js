@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const Post = require('../models/Posts');
-const {getAshantiTowns,getAhafoTowns} = require('../controller/getjson');
+const {getAshantiTowns,getAhafoTowns,getBonoTowns} = require('../controller/getjson');
 const fs = require('fs');
 
 
@@ -23,6 +23,15 @@ router.get('/ashanti/towns',getAshantiTowns);
 *
 */
 router.get('/ahafo/towns',getAhafoTowns);
+
+/**
+*@api {get} /bono/towns Towns in the Bono Region 
+*@apiName BonoTowns
+*@apiGroup Towns
+*
+*/
+router.get('/bono/towns',getBonoTowns);
+
 
 
 module.exports = router;

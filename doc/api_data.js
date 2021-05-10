@@ -56,5 +56,20 @@ define({ "api": [
         "url": "http://localhost:3000/ashanti/towns"
       }
     ]
+  },
+  {
+    "type": "get",
+    "url": "/bono/towns",
+    "title": "Towns in the Bono Region",
+    "name": "BonoTowns",
+    "group": "Towns",
+    "version": "0.0.0",
+    "filename": "./routes/posts.js",
+    "groupTitle": "Towns",
+    "sampleRequest": [
+      {
+        "url": "http://localhost:3000/bono/towns"
+      }
+    ]
   }
 ] });
