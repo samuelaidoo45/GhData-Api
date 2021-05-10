@@ -1,6 +1,6 @@
 {
-  "name": "GHData",
-  "version": "0.1.0",
+  "name": "GhData",
+  "version": "1.0.0",
   "description": "Data about Ghana",
   "title": "GHData",
   "sampleUrl": "http://localhost:3000",
@@ -9,7 +9,7 @@
   "apidoc": "0.3.0",
   "generator": {
     "name": "apidoc",
-    "time": "2021-05-09T14:31:50.885Z",
+    "time": "2021-05-10T12:53:13.272Z",
     "url": "https://apidocjs.com",
     "version": "0.27.1"
   }

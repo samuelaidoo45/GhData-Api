@@ -29,31 +29,31 @@
   },
   {
     "type": "get",
-    "url": "/ashanti/towns",
-    "title": "Towns in the Ashanti Region",
-    "name": "AshantiTowns",
+    "url": "/ahafo/towns",
+    "title": "Towns in the Ahafo Region",
+    "name": "AhafoTowns",
     "group": "Towns",
     "version": "0.0.0",
-    "filename": "./app.js",
+    "filename": "./routes/posts.js",
     "groupTitle": "Towns",
     "sampleRequest": [
       {
-        "url": "http://localhost:3000/ashanti/towns"
+        "url": "http://localhost:3000/ahafo/towns"
       }
     ]
   },
   {
     "type": "get",
-    "url": "/towns",
-    "title": "Towns in Ghana",
-    "name": "TownsInGhana",
+    "url": "/ashanti/towns",
+    "title": "Towns in the Ashanti Region",
+    "name": "AshantiTowns",
     "group": "Towns",
     "version": "0.0.0",
-    "filename": "./app.js",
+    "filename": "./routes/posts.js",
     "groupTitle": "Towns",
     "sampleRequest": [
       {
-        "url": "http://localhost:3000/towns"
+        "url": "http://localhost:3000/ashanti/towns"
       }
     ]
   }
