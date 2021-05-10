@@ -1,0 +1,16 @@
+{
+    "name": "GHData",
+    "version": "0.1.0",
+    "description": "Data about Ghana",
+    "title": "GHData",
+    "sampleUrl": "http://localhost:3000",
+    "url" : "http://localhost:3000",
+    "header": {
+        "title": "My own header title",
+        "filename": "header.md"
+      },
+      "footer": {
+        "title": "My own footer title",
+        "filename": "footer.md"
+      }
+  }
