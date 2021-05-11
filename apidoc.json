@@ -1,7 +1,7 @@
 {
-    "name": "GhData",
+    "name": "GHDATA",
     "version": "1.0.0",
-    "description": "Data about Ghana",
+    "description": "Data on Ghana",
     "title": "GHData",
     "sampleUrl": "http://localhost:3000",
     "url" : "http://localhost:3000"

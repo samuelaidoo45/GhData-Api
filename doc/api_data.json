@@ -59,6 +59,21 @@
   },
   {
     "type": "get",
+    "url": "/bonoeast/towns",
+    "title": "Towns in the Bono East Region",
+    "name": "BonoEastTowns",
+    "group": "Towns",
+    "version": "0.0.0",
+    "filename": "./routes/posts.js",
+    "groupTitle": "Towns",
+    "sampleRequest": [
+      {
+        "url": "http://localhost:3000/bonoeast/towns"
+      }
+    ]
+  },
+  {
+    "type": "get",
     "url": "/bono/towns",
     "title": "Towns in the Bono Region",
     "name": "BonoTowns",
@@ -69,6 +84,36 @@
     "sampleRequest": [
       {
         "url": "http://localhost:3000/bono/towns"
+      }
+    ]
+  },
+  {
+    "type": "get",
+    "url": "/central/towns",
+    "title": "Towns in Central Region",
+    "name": "CentralTowns",
+    "group": "Towns",
+    "version": "0.0.0",
+    "filename": "./routes/posts.js",
+    "groupTitle": "Towns",
+    "sampleRequest": [
+      {
+        "url": "http://localhost:3000/central/towns"
+      }
+    ]
+  },
+  {
+    "type": "get",
+    "url": "/eastern/towns",
+    "title": "Towns in the Eastern Region",
+    "name": "EasternTowns",
+    "group": "Towns",
+    "version": "0.0.0",
+    "filename": "./routes/posts.js",
+    "groupTitle": "Towns",
+    "sampleRequest": [
+      {
+        "url": "http://localhost:3000/eastern/towns"
       }
     ]
   }

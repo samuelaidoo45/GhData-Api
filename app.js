@@ -7,7 +7,6 @@ app.use(express.static(__dirname + '/doc'));
 //const http = require('http');
 const fs = require('fs');
 
-
 app.set('view engine', 'pug');
 
 

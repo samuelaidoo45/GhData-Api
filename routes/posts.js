@@ -1,10 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const Post = require('../models/Posts');
-const {getAshantiTowns,getAhafoTowns,getBonoTowns} = require('../controller/getjson');
+const {getAshantiTowns,getAhafoTowns,getBonoTowns,getBonoEastTowns,getCentralTowns,getEasternTowns} = require('../controller/townsController');
 const fs = require('fs');
-
-
 
 /**
 *@api {get} /ashanti/towns Towns in the Ashanti Region 
@@ -13,8 +10,6 @@ const fs = require('fs');
 *
 */
 router.get('/ashanti/towns',getAshantiTowns);
-
-
 
 /**
 *@api {get} /ahafo/towns Towns in the Ahafo Region 
@@ -30,7 +25,38 @@ router.get('/ahafo/towns',getAhafoTowns);
 *@apiGroup Towns
 *
 */
+
 router.get('/bono/towns',getBonoTowns);
+
+
+/**
+*@api {get} /bonoeast/towns Towns in the Bono East Region 
+*@apiName BonoEastTowns
+*@apiGroup Towns
+*
+*/
+
+router.get('/bonoeast/towns',getBonoEastTowns);
+
+
+/**
+*@api {get} /central/towns Towns in Central Region 
+*@apiName CentralTowns
+*@apiGroup Towns
+*
+*/
+
+router.get('/central/towns',getCentralTowns);
+
+
+/**
+*@api {get} /eastern/towns Towns in the Eastern Region 
+*@apiName EasternTowns
+*@apiGroup Towns
+*
+*/
+
+router.get('/eastern/towns',getEasternTowns);
 
 
 
