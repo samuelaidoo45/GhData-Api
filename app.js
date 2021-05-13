@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const postRoute = require('./routes/posts');
+const postRoute = require('./routes/townsRoute');
 const indexRoute = require('./routes/index');
 
 app.use(express.static(__dirname + '/doc'));

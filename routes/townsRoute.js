@@ -40,7 +40,7 @@ router.get('/bonoeast/towns',getBonoEastTowns);
 
 
 /**
-*@api {get} /central/towns Towns in Central Region 
+*@api {get} /central/towns Towns in the Central Region 
 *@apiName CentralTowns
 *@apiGroup Towns
 *
