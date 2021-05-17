@@ -34,7 +34,7 @@ define({ "api": [
     "name": "AhafoTowns",
     "group": "Towns",
     "version": "0.0.0",
-    "filename": "./routes/posts.js",
+    "filename": "./routes/townsRoute.js",
     "groupTitle": "Towns",
     "sampleRequest": [
       {
@@ -49,7 +49,7 @@ define({ "api": [
     "name": "AshantiTowns",
     "group": "Towns",
     "version": "0.0.0",
-    "filename": "./routes/posts.js",
+    "filename": "./routes/townsRoute.js",
     "groupTitle": "Towns",
     "sampleRequest": [
       {
@@ -64,7 +64,7 @@ define({ "api": [
     "name": "BonoEastTowns",
     "group": "Towns",
     "version": "0.0.0",
-    "filename": "./routes/posts.js",
+    "filename": "./routes/townsRoute.js",
     "groupTitle": "Towns",
     "sampleRequest": [
       {
@@ -79,7 +79,7 @@ define({ "api": [
     "name": "BonoTowns",
     "group": "Towns",
     "version": "0.0.0",
-    "filename": "./routes/posts.js",
+    "filename": "./routes/townsRoute.js",
     "groupTitle": "Towns",
     "sampleRequest": [
       {
@@ -90,11 +90,11 @@ define({ "api": [
   {
     "type": "get",
     "url": "/central/towns",
-    "title": "Towns in Central Region",
+    "title": "Towns in the Central Region",
     "name": "CentralTowns",
     "group": "Towns",
     "version": "0.0.0",
-    "filename": "./routes/posts.js",
+    "filename": "./routes/townsRoute.js",
     "groupTitle": "Towns",
     "sampleRequest": [
       {
@@ -109,7 +109,7 @@ define({ "api": [
     "name": "EasternTowns",
     "group": "Towns",
     "version": "0.0.0",
-    "filename": "./routes/posts.js",
+    "filename": "./routes/townsRoute.js",
     "groupTitle": "Towns",
     "sampleRequest": [
       {
