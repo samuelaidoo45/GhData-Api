@@ -116,5 +116,20 @@
         "url": "http://localhost:3000/eastern/towns"
       }
     ]
+  },
+  {
+    "type": "get",
+    "url": "/universities",
+    "title": "Universities in Ghana",
+    "name": "universitiesInGhana",
+    "group": "Universities",
+    "version": "0.0.0",
+    "filename": "./routes/universitiesRoute.js",
+    "groupTitle": "Universities",
+    "sampleRequest": [
+      {
+        "url": "http://localhost:3000/universities"
+      }
+    ]
   }
 ]

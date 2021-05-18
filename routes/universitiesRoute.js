@@ -4,7 +4,7 @@ const {getUniversities} = require('../controller/universitiesController');
 const fs = require('fs');
 
 /**
-*@api {get} /universiteis  Universities in Ghana
+*@api {get} /universities  Universities in Ghana
 *@apiName universitiesInGhana
 *@apiGroup Universities
 *

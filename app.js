@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
-const postRoute = require('./routes/townsRoute');
-const indexRoute = require('./routes/index');
+const townsRoute = require('./routes/townsRoute');
+const universitiesRoute = require('./routes/universitiesRoute');
 
 app.use(express.static(__dirname + '/doc'));
 //const http = require('http');
@@ -13,7 +13,8 @@ app.set('view engine', 'pug');
 app.use(express.json());
 
 
-app.use('/', postRoute);//connecting to route
+app.use('/', townsRoute);//connecting to route
+app.use('/', universitiesRoute);
 
 
 app.get('/', function(req, res) { 
