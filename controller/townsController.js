@@ -72,35 +72,35 @@ const getEasternTowns =(req, res, next) =>
     res.send(easternTowns);
 } //Get towns in the Eastern Region
 
-const getEasternTowns =(req, res, next) =>
-{
-    res.header(allowOrigin, "*");
-    res.header(allowHeadrs, "Origin, X-Requested-With, Content-Type, Accept");
-    res.header(allowMethods,"PUT,POST,GET,DELETE,OPTIONS");
-    res.header(contentType, "application/json;charset=utf-8");
-    const easternTowns = fs.readFileSync(datapath + 'NorthEast.json', "utf8")
-    res.send(easternTowns);
-} //Get towns in the North Eastern Region
+// const getEasternTowns =(req, res, next) =>
+// {
+//     res.header(allowOrigin, "*");
+//     res.header(allowHeadrs, "Origin, X-Requested-With, Content-Type, Accept");
+//     res.header(allowMethods,"PUT,POST,GET,DELETE,OPTIONS");
+//     res.header(contentType, "application/json;charset=utf-8");
+//     const easternTowns = fs.readFileSync(datapath + 'NorthEast.json', "utf8")
+//     res.send(easternTowns);
+// } //Get towns in the North Eastern Region
 
-const getEasternTowns =(req, res, next) =>
-{
-    res.header(allowOrigin, "*");
-    res.header(allowHeadrs, "Origin, X-Requested-With, Content-Type, Accept");
-    res.header(allowMethods,"PUT,POST,GET,DELETE,OPTIONS");
-    res.header(contentType, "application/json;charset=utf-8");
-    const easternTowns = fs.readFileSync(datapath + 'Northen.json', "utf8")
-    res.send(easternTowns);
-} //Get towns in the Northern Region
+// const getEasternTowns =(req, res, next) =>
+// {
+//     res.header(allowOrigin, "*");
+//     res.header(allowHeadrs, "Origin, X-Requested-With, Content-Type, Accept");
+//     res.header(allowMethods,"PUT,POST,GET,DELETE,OPTIONS");
+//     res.header(contentType, "application/json;charset=utf-8");
+//     const easternTowns = fs.readFileSync(datapath + 'Northen.json', "utf8")
+//     res.send(easternTowns);
+// } //Get towns in the Northern Region
 
-const getEasternTowns =(req, res, next) =>
-{
-    res.header(allowOrigin, "*");
-    res.header(allowHeadrs, "Origin, X-Requested-With, Content-Type, Accept");
-    res.header(allowMethods,"PUT,POST,GET,DELETE,OPTIONS");
-    res.header(contentType, "application/json;charset=utf-8");
-    const easternTowns = fs.readFileSync(datapath + 'Oti.json', "utf8")
-    res.send(easternTowns);
-} //Get towns in the Northern Region
+// const getEasternTowns =(req, res, next) =>
+// {
+//     res.header(allowOrigin, "*");
+//     res.header(allowHeadrs, "Origin, X-Requested-With, Content-Type, Accept");
+//     res.header(allowMethods,"PUT,POST,GET,DELETE,OPTIONS");
+//     res.header(contentType, "application/json;charset=utf-8");
+//     const easternTowns = fs.readFileSync(datapath + 'Oti.json', "utf8")
+//     res.send(easternTowns);
+// } //Get towns in the Northern Region
 
 
 

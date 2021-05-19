@@ -1,17 +1,15 @@
 const fs = require("fs");
-
+const header = require('../dataObject/Header');
+ hd = new header();
+ 
 var datapath = './ghdata/universities/';
-var allowOrigin = {key:"Access-Control-Allow-Origin",value:"*"};
-var allowHeadrs = {key:"Access-Control-Allow-Headers",value:"Origin, X-Requested-With, Content-Type, Accept"};
-var allowMethods = {key:"Access-Control-Allow-Methods",value:"PUT,POST,GET,DELETE,OPTIONS"};
-var contentType = {key:"Content-Type",value:"application/json;charset=utf-8"};
 
 const getUniversities = (req,res,next)=>
 {
-    res.header(allowOrigin.value, allowOrigin.value );
-    res.header(allowHeadrs.key,allowHeadrs.value );
-    res.header(allowMethods.key,allowMethods.value);
-    res.header(contentType.key, contentType.value);
+    res.header(hd.allowOrigin.key, hd.allowOrigin.value );
+    res.header(hd.allowHeadrs.key,hd.allowHeadrs.value );
+    res.header(hd.allowMethods.key,hd.allowMethods.value);
+    res.header(hd.contentType.key, hd.contentType.value);
     const ghUniversities = fs.readFileSync(datapath + 'universities.json', "utf8")
     res.send(ghUniversities);
 }
