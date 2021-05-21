@@ -9,7 +9,6 @@ const fs = require('fs');
 *@apiGroup Universities
 *
 */
-
 router.get('/universities',getUniversities);
 
 
