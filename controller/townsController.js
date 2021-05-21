@@ -92,18 +92,28 @@ const getNorthenTowns =(req, res, next) =>
     res.send(northenTowns);
 } //Get towns in the Northern Region
 
-// const getEasternTowns =(req, res, next) =>
-// {
-//     res.header(allowOrigin, "*");
-//     res.header(allowHeadrs, "Origin, X-Requested-With, Content-Type, Accept");
-//     res.header(allowMethods,"PUT,POST,GET,DELETE,OPTIONS");
-//     res.header(contentType, "application/json;charset=utf-8");
-//     const easternTowns = fs.readFileSync(datapath + 'Oti.json', "utf8")
-//     res.send(easternTowns);
-// } //Get towns in the Northern Region
+const getOtiTowns =(req, res, next) =>
+{
+    res.header(allowOrigin, "*");
+    res.header(allowHeadrs, "Origin, X-Requested-With, Content-Type, Accept");
+    res.header(allowMethods,"PUT,POST,GET,DELETE,OPTIONS");
+    res.header(contentType, "application/json;charset=utf-8");
+    const otitowns = fs.readFileSync(datapath + 'Oti.json', "utf8")
+    res.send(otitowns);
+} //Get towns in the Northern Region
 
 
 
 
 
-module.exports = {getAshantiTowns,getAhafoTowns,getBonoTowns,getBonoEastTowns,getCentralTowns,getEasternTowns,getNorthEastTowns,getNorthenTowns};
+module.exports = {
+    getAshantiTowns,
+    getAhafoTowns,
+    getBonoTowns,
+    getBonoEastTowns,
+    getCentralTowns,
+    getEasternTowns,
+    getNorthEastTowns,
+    getNorthenTowns,
+    getOtiTowns
+};
