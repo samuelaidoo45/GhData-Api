@@ -9,7 +9,7 @@ const fs = require('fs');
 *@apiGroup Towns
 *
 */
-router.get('/ashanti/towns',getAshantiTowns);
+router.get('/ashanti-towns',getAshantiTowns);
 
 /**
 *@api {get} /ahafo/towns Towns in the Ahafo Region 

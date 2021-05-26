@@ -1,8 +1,9 @@
-
-const { getHashes } = require('crypto');
 const fs = require('fs');
+const header = require('../dataObject/Header');//Res headers
 
-var datapath = './ghdata/regions/';
+hd = new header();
+
+var datapath = './ghdata/regions';
 var allowOrigin = "Access-Control-Allow-Origin";
 var allowHeadrs = "Access-Control-Allow-Headers";
 var allowMethods = "Access-Control-Allow-Methods";
@@ -10,21 +11,25 @@ var contentType ="Content-Type";
 
 const getAshantiTowns = (req, res, next) =>
 {
-    res.header(allowOrigin, "*");
-    res.header(allowHeadrs, "Origin, X-Requested-With, Content-Type, Accept");
-    res.header(allowMethods,"PUT,POST,GET,DELETE,OPTIONS");
-    res.header(contentType, "application/json;charset=utf-8");
-    const ashantiTowns = fs.readFileSync(datapath + 'Ashanti.json', "utf8")
+    res.header(hd.allowOrigin.key, hd.allowOrigin.value );
+    res.header(hd.allowHeadrs.key,hd.allowHeadrs.value );
+    res.header(hd.allowMethods.key,hd.allowMethods.value);
+    res.header(hd.contentType.key, hd.contentType.value);
+    console.log(req.url);
+    console.log(datapath + req.url+'.json');
+    fs.readFile(datapath + req.url+'.json', "utf8",function(err,data){
+        res.send(data);
+    })
     
-    res.send(ashantiTowns);
-} //Get towns in the Ashanti Region
+    
+} //Get towns in the various regions
 
 const getAhafoTowns =(req, res, next) =>
 {
-    res.header(allowOrigin, "*");
-    res.header(allowHeadrs, "Origin, X-Requested-With, Content-Type, Accept");
-    res.header(allowMethods,"PUT,POST,GET,DELETE,OPTIONS");
-    res.header(contentType, "application/json;charset=utf-8");
+    res.header(hd.allowOrigin.key, hd.allowOrigin.value );
+    res.header(hd.allowHeadrs.key,hd.allowHeadrs.value );
+    res.header(hd.allowMethods.key,hd.allowMethods.value);
+    res.header(hd.contentType.key, hd.contentType.value);
     const ahafoTowns = fs.readFileSync(datapath+'Ahafo.json', "utf8")
     
     res.send(ahafoTowns);
@@ -32,10 +37,10 @@ const getAhafoTowns =(req, res, next) =>
 
 const getBonoTowns =(req, res, next) =>
 {
-    res.header(allowOrigin, "*");
-    res.header(allowHeadrs, "Origin, X-Requested-With, Content-Type, Accept");
-    res.header(allowMethods,"PUT,POST,GET,DELETE,OPTIONS");
-    res.header(contentType, "application/json;charset=utf-8");
+    res.header(hd.allowOrigin.key, hd.allowOrigin.value );
+    res.header(hd.allowHeadrs.key,hd.allowHeadrs.value );
+    res.header(hd.allowMethods.key,hd.allowMethods.value);
+    res.header(hd.contentType.key, hd.contentType.value);
     const bonoTowns = fs.readFileSync(datapath+ 'Bono.json', "utf8")
     res.send(bonoTowns);
 } //Get towns in the Bono Region
@@ -100,9 +105,7 @@ const getOtiTowns =(req, res, next) =>
     res.header(contentType, "application/json;charset=utf-8");
     const otitowns = fs.readFileSync(datapath + 'Oti.json', "utf8")
     res.send(otitowns);
-} //Get towns in the Northern Region
-
-
+} //Get towns in the Oti Region
 
 
 

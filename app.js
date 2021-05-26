@@ -9,16 +9,14 @@ const fs = require('fs');
 
 app.set('view engine', 'pug');
 
-
 app.use(express.json());
-
 
 app.use('/', townsRoute);//connecting to route
 app.use('/', universitiesRoute);
 
 
 app.get('/', function(req, res) { 
-    res.sendFile('index.html',{root: __dirname})
+    res.sendFile('index.html',{root: __dirname});
 });//rendering index page
 
 
