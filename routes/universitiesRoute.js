@@ -12,5 +12,4 @@ const fs = require('fs');
 router.get('/universities',getUniversities);
 
 
-
 module.exports = router;
