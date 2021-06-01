@@ -13,12 +13,12 @@ const {getData} = require('../controller/getData');
 router.get('/ashanti-towns',getData);
 
 /**
-*@api {get} /ahafo/towns Towns in the Ahafo Region 
+*@api {get} /ahafo-towns Towns in the Ahafo Region 
 *@apiName AhafoTowns
 *@apiGroup Towns
 *
 */
-router.get('/ahafo/towns',getAhafoTowns);
+router.get('/ahafo-towns',getData);
 
 /**
 *@api {get} /bono/towns Towns in the Bono Region 
