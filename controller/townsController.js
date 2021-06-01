@@ -3,7 +3,7 @@ const header = require('../dataObject/Header');//Res headers
 
 hd = new header();
 
-var datapath = './ghdata/regions';
+var datapath = './ghdata/regions/';
 var allowOrigin = "Access-Control-Allow-Origin";
 var allowHeadrs = "Access-Control-Allow-Headers";
 var allowMethods = "Access-Control-Allow-Methods";

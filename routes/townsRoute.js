@@ -2,14 +2,15 @@ const express = require('express');
 const router = express.Router();
 const {getAshantiTowns,getAhafoTowns,getBonoTowns,getBonoEastTowns,getCentralTowns,getEasternTowns} = require('../controller/townsController');
 const fs = require('fs');
+const {getData} = require('../controller/getData');
 
 /**
-*@api {get} /ashanti/towns Towns in the Ashanti Region 
+*@api {get} /ashanti-towns Towns in the Ashanti Region 
 *@apiName AshantiTowns
 *@apiGroup Towns
 *
 */
-router.get('/ashanti-towns',getAshantiTowns);
+router.get('/ashanti-towns',getData);
 
 /**
 *@api {get} /ahafo/towns Towns in the Ahafo Region 

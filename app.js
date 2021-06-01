@@ -14,11 +14,9 @@ app.use(express.json());
 app.use('/', townsRoute);//connecting to route
 app.use('/', universitiesRoute);
 
-
 app.get('/', function(req, res) { 
     res.sendFile('index.html',{root: __dirname});
 });//rendering index page
-
 
 // LISTENING TO SERVER
 app.listen(process.env.PORT || 3000);

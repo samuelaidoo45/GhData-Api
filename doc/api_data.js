@@ -44,7 +44,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "/ashanti/towns",
+    "url": "/ashanti-towns",
     "title": "Towns in the Ashanti Region",
     "name": "AshantiTowns",
     "group": "Towns",
@@ -53,7 +53,7 @@ define({ "api": [
     "groupTitle": "Towns",
     "sampleRequest": [
       {
-        "url": "http://localhost:3000/ashanti/towns"
+        "url": "http://localhost:3000/ashanti-towns"
       }
     ]
   },
