@@ -21,43 +21,43 @@ router.get('/ashanti-towns',getData);
 router.get('/ahafo-towns',getData);
 
 /**
-*@api {get} /bono/towns Towns in the Bono Region 
+*@api {get} /bono-towns Towns in the Bono Region 
 *@apiName BonoTowns
 *@apiGroup Towns
 *
 */
 
-router.get('/bono/towns',getBonoTowns);
+router.get('/bono-towns',getData);
 
 
 /**
-*@api {get} /bonoeast/towns Towns in the Bono East Region 
+*@api {get} /bonoeast-towns Towns in the Bono East Region 
 *@apiName BonoEastTowns
 *@apiGroup Towns
 *
 */
 
-router.get('/bonoeast/towns',getBonoEastTowns);
+router.get('/bonoeast-towns',getData);
 
 
 /**
-*@api {get} /central/towns Towns in the Central Region 
+*@api {get} /central-towns Towns in the Central Region 
 *@apiName CentralTowns
 *@apiGroup Towns
 *
 */
 
-router.get('/central/towns',getCentralTowns);
+router.get('/central-towns',getData);
 
 
 /**
-*@api {get} /eastern/towns Towns in the Eastern Region 
+*@api {get} /eastern-towns Towns in the Eastern Region 
 *@apiName EasternTowns
 *@apiGroup Towns
 *
 */
 
-router.get('/eastern/towns',getEasternTowns);
+router.get('/eastern-towns',getData);
 
 
 

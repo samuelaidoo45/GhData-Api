@@ -9,6 +9,8 @@ var allowHeadrs = "Access-Control-Allow-Headers";
 var allowMethods = "Access-Control-Allow-Methods";
 var contentType ="Content-Type";
 
+
+
 const getAshantiTowns = (req, res, next) =>
 {
     res.header(hd.allowOrigin.key, hd.allowOrigin.value );
