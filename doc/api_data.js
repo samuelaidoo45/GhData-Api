@@ -38,7 +38,7 @@ define({ "api": [
     "groupTitle": "Towns",
     "sampleRequest": [
       {
-        "url": "http://localhost:3000/ahafo-towns"
+        "url": "https://gh-data.herokuapp.com//ahafo-towns"
       }
     ]
   },
@@ -53,7 +53,7 @@ define({ "api": [
     "groupTitle": "Towns",
     "sampleRequest": [
       {
-        "url": "http://localhost:3000/ashanti-towns"
+        "url": "https://gh-data.herokuapp.com//ashanti-towns"
       }
     ]
   },
@@ -68,7 +68,7 @@ define({ "api": [
     "groupTitle": "Towns",
     "sampleRequest": [
       {
-        "url": "http://localhost:3000/bonoeast-towns"
+        "url": "https://gh-data.herokuapp.com//bonoeast-towns"
       }
     ]
   },
@@ -83,7 +83,7 @@ define({ "api": [
     "groupTitle": "Towns",
     "sampleRequest": [
       {
-        "url": "http://localhost:3000/bono-towns"
+        "url": "https://gh-data.herokuapp.com//bono-towns"
       }
     ]
   },
@@ -98,7 +98,7 @@ define({ "api": [
     "groupTitle": "Towns",
     "sampleRequest": [
       {
-        "url": "http://localhost:3000/central-towns"
+        "url": "https://gh-data.herokuapp.com//central-towns"
       }
     ]
   },
@@ -113,7 +113,7 @@ define({ "api": [
     "groupTitle": "Towns",
     "sampleRequest": [
       {
-        "url": "http://localhost:3000/eastern-towns"
+        "url": "https://gh-data.herokuapp.com//eastern-towns"
       }
     ]
   },
@@ -128,7 +128,7 @@ define({ "api": [
     "groupTitle": "Universities",
     "sampleRequest": [
       {
-        "url": "http://localhost:3000/universities"
+        "url": "https://gh-data.herokuapp.com//universities"
       }
     ]
   }
