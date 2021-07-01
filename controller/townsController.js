@@ -109,7 +109,45 @@ const getOtiTowns =(req, res, next) =>
     res.send(otitowns);
 } //Get towns in the Oti Region
 
+const getSavannahTowns =(req, res, next) =>
+{
+    res.header(allowOrigin, "*");
+    res.header(allowHeadrs, "Origin, X-Requested-With, Content-Type, Accept");
+    res.header(allowMethods,"PUT,POST,GET,DELETE,OPTIONS");
+    res.header(contentType, "application/json;charset=utf-8");
+    const otitowns = fs.readFileSync(datapath + 'Savannah.json', "utf8")
+    res.send(otitowns);
+}
 
+const getUpperEastTowns =(req, res, next) =>
+{
+    res.header(allowOrigin, "*");
+    res.header(allowHeadrs, "Origin, X-Requested-With, Content-Type, Accept");
+    res.header(allowMethods,"PUT,POST,GET,DELETE,OPTIONS");
+    res.header(contentType, "application/json;charset=utf-8");
+    const otitowns = fs.readFileSync(datapath + 'UpperEast.json', "utf8")
+    res.send(otitowns);
+}
+
+const getUpperWestTowns =(req, res, next) =>
+{
+    res.header(allowOrigin, "*");
+    res.header(allowHeadrs, "Origin, X-Requested-With, Content-Type, Accept");
+    res.header(allowMethods,"PUT,POST,GET,DELETE,OPTIONS");
+    res.header(contentType, "application/json;charset=utf-8");
+    const otitowns = fs.readFileSync(datapath + 'UpperWest.json', "utf8")
+    res.send(otitowns);
+}
+
+const getVoltaTowns =(req, res, next) =>
+{
+    res.header(allowOrigin, "*");
+    res.header(allowHeadrs, "Origin, X-Requested-With, Content-Type, Accept");
+    res.header(allowMethods,"PUT,POST,GET,DELETE,OPTIONS");
+    res.header(contentType, "application/json;charset=utf-8");
+    const otitowns = fs.readFileSync(datapath + 'Volta.json', "utf8")
+    res.send(otitowns);
+}
 
 module.exports = {
     getAshantiTowns,
@@ -120,5 +158,9 @@ module.exports = {
     getEasternTowns,
     getNorthEastTowns,
     getNorthenTowns,
-    getOtiTowns
+    getOtiTowns,
+    getSavannahTowns,
+    getUpperEastTowns,
+    getUpperWestTowns,
+    getVoltaTowns
 };

@@ -1,517 +1,669 @@
-{
-    "universities": [
-        {
-            "name": "University Of Ghana",
-            "acronym": "UG",
-            "motto": "",
-            "web": "",
-            "established date": "1948",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "Kwame Nkrumah University of Science And Technology",
-            "acronym": "KNUST",
-            "motto": "",
-            "web": "",
-            "established date": "1952",
-            "logo": "",
-            "location": "Kumasi, Ashanti Region"
-        },
-        {
-            "name": "University Of Cape Coast",
-            "acronym": "UCC",
-            "motto": "",
-            "web": "",
-            "established date": "1961",
-            "logo": "",
-            "location": "Cape Coast, Central Region"
-        },
-        {
-            "name": "University Of Mines And Technology",
-            "acronym": "UMaT",
-            "motto": "",
-            "web": "",
-            "established date": "2001",
-            "logo": "",
-            "location": "Tarkwa, Western Region"
-        },
-        {
-            "name": "University of Education",
-            "acronym": "UEW",
-            "motto": "",
-            "web": "",
-            "established date": "1992",
-            "logo": "",
-            "location": "Winneba, Central Region"
-        },
-        {
-            "name": "University for Development Studies",
-            "acronym": "UDS",
-            "motto": "",
-            "web": "",
-            "established date": "1992",
-            "logo": "",
-            "location": "Tamale, Northern Region"
-        },
-        {
-            "name": "University of Professional Studies",
-            "acronym": "UPSA",
-            "motto": "",
-            "web": "",
-            "established date": "1965",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "University of Energy And Natural Resources",
-            "acronym": "UENR",
-            "motto": "",
-            "web": "",
-            "established date": "2012",
-            "logo": "",
-            "location": "Sunyani, Bono Region"
-        },
-        {
-            "name": "University of Health and Allied Sciences",
-            "acronym": "UHAS",
-            "motto": "",
-            "web": "",
-            "established date": "2011",
-            "logo": "",
-            "location": "Ho, Volta Region"
-        },
-        {
-            "name": "CK Tadem University for Technology and Applied Sciences",
-            "acronym": "CKT-UTAS",
-            "motto": "",
-            "web": "",
-            "established date date": "2020",
-            "logo": "",
-            "location": "Navrongo, Upper East Region"
-        },
-        {
-            "name": "Simon Diedong Dombo University for Business and Integrated Development Studies",
-            "acronym": "SDD-UBIDS",
-            "motto": "",
-            "web": "",
-            "established date date": "2020",
-            "logo": "",
-            "location": "Wa, Upper West Region"
-        },
-        {
-            "name": "Akenten Appiah Menkah University of Skills Training and Entrepreneurial Development, Kumasi",
-            "acronym": "AAM-USTED",
-            "motto": "",
-            "web": "",
-            "established date date": "2020",
-            "logo": "",
-            "location": "Kumasi & Mampong, Ashantit Region"
-        },
-        {
-            "name": "University of Environment and Sustainable Development",
-            "acronym": "UESD",
-            "motto": "",
-            "web": "",
-            "established date": "2020",
-            "logo": "",
-            "location": "Somanya, Eastern Region"
-        },
-        {
-            "name": "Accra Technical University",
-            "acronym": "ATU",
-            "motto": "",
-            "web": "",
-            "established date": "1949",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "Bolgatanga Technical University",
-            "acronym": "BTU",
-            "motto": "",
-            "web": "",
-            "established date": "",
-            "logo": "",
-            "location": "Bolgatanga, Upper East Region"
-        },
-        {
-            "name": "Cape Coast Technical University",
-            "acronym": "CCTU",
-            "motto": "",
-            "web": "",
-            "established date": "",
-            "logo": "",
-            "location": "Cape Coast, Central Region"
-        },
-        {
-            "name": "Kumasi Technical University",
-            "acronym": "KsTU",
-            "motto": "",
-            "web": "",
-            "established date": "",
-            "logo": "",
-            "location": "Kumasi, Ashanti Region"
-        },
-        {
-            "name": "Koforidua Technical University[",
-            "acronym": "KTU",
-            "motto": "",
-            "web": "",
-            "established date": "1997",
-            "logo": "",
-            "location": "Koforidua, Eastern Region"
-        },
-        {
-            "name": "Tamale Technical University",
-            "acronym": "TATU",
-            "motto": "",
-            "web": "",
-            "established date": "",
-            "logo": "",
-            "location": "Tamale, Northern Region"
-        },
-        {
-            "name": "Ho Technical University",
-            "acronym": "HTU",
-            "motto": "",
-            "web": "",
-            "established date": "1968",
-            "logo": "",
-            "location": "Ho, Volta Region"
-        },
-        {
-            "name": "Takoradi Technical University",
-            "acronym": "TTU",
-            "motto": "",
-            "web": "",
-            "established date": "1954",
-            "logo": "",
-            "location": "Takoradi, Western Region"
-        },
-        {
-            "name": "Sunyani Technical University",
-            "acronym": "STU",
-            "motto": "",
-            "web": "",
-            "established date": "1954",
-            "logo": "",
-            "location": "Sunyani, Bono Region"
-        },
-        {
-            "name": "Wa Technical University",
-            "acronym": "WTU",
-            "motto": "",
-            "web": "",
-            "established date": "",
-            "logo": "",
-            "location": "Wa, Upper West Region"
-        },
-        {
-            "name": "Ghana Armed Forces Command and Staff College",
-            "acronym": "GAFCSC",
-            "motto": "",
-            "web": "",
-            "established date": "",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "Ghana Institute of Journalism",
-            "acronym": "GIJ",
-            "motto": "",
-            "web": "",
-            "established date": "",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "Ghana Institute of Languages",
-            "acronym": "GIL",
-            "motto": "",
-            "web": "",
-            "established date": "1961",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "Ghana Institute of Management and Public Administration",
-            "acronym": "GIMPA",
-            "motto": "",
-            "web": "",
-            "established date": "",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "Ghana Institute of Surveying and Mapping",
-            "acronym": "GISM",
-            "motto": "",
-            "web": "",
-            "established date": "",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "Institution of Local Government Studies",
-            "acronym": "ILGS",
-            "motto": "",
-            "web": "",
-            "established date": "",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "Institution of Local Government Studies",
-            "acronym": "ILGS",
-            "motto": "",
-            "web": "",
-            "established date": "",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "Kofi Annan International Peacekeeping Training Centre",
-            "acronym": "KAIPTC",
-            "motto": "",
-            "web": "",
-            "established date": "1998",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "National Film and Television Institute",
-            "acronym": "NAFTI",
-            "motto": "",
-            "web": "",
-            "established date": "1978",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "Regional Maritime University",
-            "acronym": "RMU",
-            "motto": "",
-            "web": "",
-            "established date": "2007",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "Consular & Diplomatic Service University (CDSU)",
-            "acronym": "CDSU",
-            "motto": "",
-            "web": "",
-            "established date": "2017",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "Valley View University",
-            "acronym": "VVU",
-            "motto": "",
-            "web": "",
-            "established date": "1979",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "Central University",
-            "acronym": "Central",
-            "motto": "",
-            "web": "",
-            "established date": "1998",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "Pentecost University",
-            "acronym": "Pent Vars",
-            "motto": "",
-            "web": "",
-            "established date": "2003",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "All Nations University",
-            "acronym": "ANU",
-            "motto": "",
-            "web": "",
-            "established date": "2002",
-            "logo": "",
-            "location": "Koforidua, Eastern Region"
-        },
-        {
-            "name": "Ashesi University",
-            "acronym": "Ashesi",
-            "motto": "",
-            "web": "",
-            "established date": "2002",
-            "logo": "",
-            "location": "Berekuso, Eastern Region Region"
-        },
-        {
-            "name": "Accra Institute of Technology",
-            "acronym": "AIT",
-            "motto": "",
-            "web": "",
-            "established date": "2005",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "African University College of Communications",
-            "acronym": "AUCC",
-            "motto": "",
-            "web": "",
-            "established date": "2005",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "Anglican University College of Technology",
-            "acronym": "ANG.U.TECH",
-            "motto": "",
-            "web": "",
-            "established date": "2008",
-            "logo": "",
-            "location": "Nkoranza Campus, Nkoranza, Bono East Region"
-        },
-        {
-            "name": "Catholic University College of Ghana",
-            "acronym": "CUG",
-            "motto": "",
-            "web": "",
-            "established date": "2003",
-            "logo": "",
-            "location": "Fiapre, Sunyani, Bono Region"
-        },
-        {
-            "name": "Christian Service University College",
-            "acronym": "CSUC",
-            "motto": "",
-            "web": "",
-            "established date": "1974",
-            "logo": "",
-            "location": "Kumasi, Ashanti Region"
-        },
-        {
-            "name": "Family Health Medical School",
-            "acronym": "FHMS",
-            "motto": "",
-            "web": "",
-            "established date": "2015",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "Islamic University College",
-            "acronym": "ICUG",
-            "motto": "",
-            "web": "",
-            "established date": "1988",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "Knutsford University College",
-            "acronym": "Knutsford",
-            "motto": "",
-            "web": "",
-            "established date": "1988",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "Lancaster University",
-            "acronym": "LUG",
-            "motto": "",
-            "web": "",
-            "established date": "2013",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "Methodist University College Ghana",
-            "acronym": "MUCG",
-            "motto": "",
-            "web": "",
-            "established date": "2000",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "Presbyterian University College",
-            "acronym": "PUC",
-            "motto": "",
-            "web": "",
-            "established date": "2003",
-            "logo": "",
-            "location": "Abetifi-Kwahu, Akropong-Akuapem, Agogo Asante-Akyem and Tema"
-        },
-        {
-            "name": "Wisconsin International University College",
-            "acronym": "WIUC",
-            "motto": "",
-            "web": "",
-            "established date": "2000",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "Blue Crest College",
-            "acronym": "BCCG",
-            "motto": "",
-            "web": "",
-            "established date": "1999",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "KAAF University College",
-            "acronym": "KUC",
-            "motto": "",
-            "web": "",
-            "established date": "",
-            "logo": "",
-            "location": "Gomoa Buduburam, Central Region"
-        },
-        {
-            "name": "Radford University College",
-            "acronym": "Radford",
-            "motto": "",
-            "web": "",
-            "established date": "",
-            "logo": "",
-            "location": "Kumasi, Ashanti Region"
-        },
-        {
-            "name": "Garden City University College",
-            "acronym": "GCUC",
-            "motto": "",
-            "web": "",
-            "established date": "2001",
-            "logo": "",
-            "location": "Kumasi, Ashanti Region"
-        },
-        {
-            "name": "Regent University College of Science and Technology",
-            "acronym": "Regent",
-            "motto": "",
-            "web": "",
-            "established date": "2003",
-            "logo": "",
-            "location": "Accra, Greater Accra Region"
-        },
-        {
-            "name": "Technical University College",
-            "acronym": "TUC",
-            "motto": "",
-            "web": "",
-            "established date": "2003",
-            "logo": "",
-            "location": "Tamale, Northern Region"
-        }
-    ]
-}
+[
+    {
+        "name": "University Of Ghana",
+        "acronym": "UG",
+        "motto": "",
+        "web": "https://www.ug.edu.gh",
+        "established date": "1948",
+        "logo": "https://www.ug.edu.gh/sites/default/files/ug_standard_new_sl_1.png",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "Kwame Nkrumah University of Science And Technology",
+        "acronym": "KNUST",
+        "motto": "",
+        "web": "https://www.knust.edu.gh",
+        "established date": "1952",
+        "logo": "https://www.knust.edu.gh/themes/custom/adepts/images/knustlogo.png",
+        "location": "Kumasi, Ashanti Region"
+    },
+    {
+        "name": "University Of Cape Coast",
+        "acronym": "UCC",
+        "motto": "",
+        "web": "https://ucc.edu.gh",
+        "established date": "1961",
+        "logo": "https://ucc.edu.gh/sites/default/files/ucc_logo_new.png",
+        "location": "Cape Coast, Central Region"
+    },
+    {
+        "name": "University Of Mines And Technology",
+        "acronym": "UMaT",
+        "motto": "",
+        "web": "https://umat.edu.gh/",
+        "established date": "2001",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/University_of_Mines_and_Technology_logo.jpg/240px-University_of_Mines_and_Technology_logo.jpg",
+        "location": "Tarkwa, Western Region"
+    },
+    {
+        "name": "University of Education",
+        "acronym": "UEW",
+        "motto": "",
+        "web": "https://www.uew.edu.gh",
+        "established date": "1992",
+        "logo": "https://www.uew.edu.gh/sites/default/files/uew_logo_web.png",
+        "location": "Winneba, Central Region"
+    },
+    {
+        "name": "University for Development Studies",
+        "acronym": "UDS",
+        "motto": "",
+        "web": "https://uds.edu.gh",
+        "established date": "1992",
+        "logo": "https://uds.edu.gh/images/logo_header.png",
+        "location": "Tamale, Northern Region"
+    },
+    {
+        "name": "University of Professional Studies",
+        "acronym": "UPSA",
+        "motto": "",
+        "web": "https://upsa.edu.gh",
+        "established date": "1965",
+        "logo": "https://upsa.edu.gh/wp-content/uploads/2020/11/upsa-logoacbsp.png",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "University of Energy And Natural Resources",
+        "acronym": "UENR",
+        "motto": "",
+        "web": "https://uenr.edu.gh",
+        "established date": "2012",
+        "logo": "https://uenr.edu.gh/wp-content/uploads/2021/02/uenr-2.png",
+        "location": "Sunyani, Bono Region"
+    },
+    {
+        "name": "University of Health and Allied Sciences",
+        "acronym": "UHAS",
+        "motto": "",
+        "web": "https://www.uhas.edu.gh",
+        "established date": "2011",
+        "logo": "https://www.uhas.edu.gh/images/sampledata/icetheme/logonew.png",
+        "location": "Ho, Volta Region"
+    },
+    {
+        "name": "CK Tadem University for Technology and Applied Sciences",
+        "acronym": "CKT-UTAS",
+        "motto": "",
+        "web": "https://cktutas.edu.gh",
+        "established date date": "2020",
+        "logo": "https://cktutas.edu.gh/wp-content/uploads/2020/06/CK-LOGO-symbol.png",
+        "location": "Navrongo, Upper East Region"
+    },
+    {
+        "name": "Simon Diedong Dombo University for Business and Integrated Development Studies",
+        "acronym": "SDD-UBIDS",
+        "motto": "",
+        "web": "https://ubids.edu.gh",
+        "established date date": "2020",
+        "logo": "https://ubids.edu.gh/wp-content/uploads/2020/07/UBIDS-logo-updated-3.png",
+        "location": "Wa, Upper West Region"
+    },
+    {
+        "name": "Akenten Appiah Menkah University of Skills Training and Entrepreneurial Development, Kumasi",
+        "acronym": "AAM-USTED",
+        "motto": "",
+        "web": "https://aamusted.edu.gh/site/usted/home.php",
+        "established date date": "2020",
+        "logo": "https://aamusted.edu.gh/site/resources/img/uniname.jpg",
+        "location": "Kumasi & Mampong, Ashantit Region"
+    },
+    {
+        "name": "University of Environment and Sustainable Development",
+        "acronym": "UESD",
+        "motto": "",
+        "web": "https://uesd.edu.gh/site",
+        "established date": "2020",
+        "logo": "https://uesd.edu.gh/site/wp-content/uploads/2021/02/uesd-web-nam.jpg",
+        "location": "Somanya, Eastern Region"
+    },
+    {
+        "name": "Accra Technical University",
+        "acronym": "ATU",
+        "motto": "",
+        "web": "https://atu.edu.gh",
+        "established date": "1949",
+        "logo": "http://sites.myatu.net/wp-content/uploads/2020/05/unnamed-1-300x113.png",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "Bolgatanga Technical University",
+        "acronym": "BTU",
+        "motto": "",
+        "web": "https://www.bolgatu.edu.gh",
+        "established date": "1993",
+        "logo": "https://www.bolgatu.edu.gh/wp-content/uploads/2020/10/BTU-web-1.jpg",
+        "location": "Bolgatanga, Upper East Region"
+    },
+    {
+        "name": "Cape Coast Technical University",
+        "acronym": "CCTU",
+        "motto": "",
+        "web": "https://cctu.edu.gh/site/index",
+        "established date": "1986",
+        "logo": "https://cctu.edu.gh/site/img/logo/logo_header.png",
+        "location": "Cape Coast, Central Region"
+    },
+    {
+        "name": "Kumasi Technical University",
+        "acronym": "KsTU",
+        "motto": "",
+        "web": "https://kstu.edu.gh",
+        "established date": "1954",
+        "logo": "https://kstu.edu.gh/sites/default/files/logo.png",
+        "location": "Kumasi, Ashanti Region"
+    },
+    {
+        "name": "Koforidua Technical University",
+        "acronym": "KTU",
+        "motto": "",
+        "web": "https://www.ktu.edu.gh",
+        "established date": "1997",
+        "logo": "https://www.ktu.edu.gh/wp-content/uploads/2020/08/ktu_logo.png",
+        "location": "Koforidua, Eastern Region"
+    },
+    {
+        "name": "Tamale Technical University",
+        "acronym": "TATU",
+        "motto": "",
+        "web": "https://www.tatu.edu.gh",
+        "established date": "1951",
+        "logo": "https://www.tatu.edu.gh/images/finallogo.png",
+        "location": "Tamale, Northern Region"
+    },
+    {
+        "name": "Ho Technical University",
+        "acronym": "HTU",
+        "motto": "",
+        "web": "https://htu.edu.gh",
+        "established date": "1968",
+        "logo": "https://htu.edu.gh/images/logo.jpg",
+        "location": "Ho, Volta Region"
+    },
+    {
+        "name": "Takoradi Technical University",
+        "acronym": "TTU",
+        "motto": "",
+        "web": "https://ttu.edu.gh",
+        "established date": "1954",
+        "logo": "https://ttu.edu.gh/sites/default/files/logo.png",
+        "location": "Takoradi, Western Region"
+    },
+    {
+        "name": "Sunyani Technical University",
+        "acronym": "STU",
+        "motto": "",
+        "web": "https://stu.edu.gh",
+        "established date": "1954",
+        "logo": "https://stu.edu.gh/images/stu-logo.png",
+        "location": "Sunyani, Bono Region"
+    },
+    {
+        "name": "Wa Technical University",
+        "acronym": "WTU",
+        "motto": "",
+        "web": "https://wtu.edu.gh",
+        "established date": "1999",
+        "logo": "https://wtu.edu.gh/wp-content/uploads/2020/10/cropped-lgo-2.jpg",
+        "location": "Wa, Upper West Region"
+    },
+    {
+        "name": "Ghana Armed Forces Command and Staff College",
+        "acronym": "GAFCSC",
+        "motto": "",
+        "web": "https://gafcscmil.edu.gh",
+        "established date": "1963",
+        "logo": "https://gafcscmil.edu.gh/wp-content/uploads/2021/03/GAFCSC-LOGO-scaled.jpg",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "Ghana Institute of Journalism",
+        "acronym": "GIJ",
+        "motto": "",
+        "web": "https://gij.edu.gh",
+        "established date": "1959",
+        "logo": "https://gij.edu.gh/wp-content/uploads/2020/11/gijwe.png",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "Ghana Institute of Languages",
+        "acronym": "GIL",
+        "motto": "",
+        "web": "http://gil.edu.gh",
+        "established date": "1961",
+        "logo": "http://gil.edu.gh/img/logo-light.png",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "Ghana Institute of Management and Public Administration",
+        "acronym": "GIMPA",
+        "motto": "",
+        "web": "https://www.gimpa.edu.gh",
+        "established date": "1961",
+        "logo": "https://www.gimpa.edu.gh/wp-content/themes/GIMPS/images/logo_g.png",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "Ghana Institute of Surveying and Mapping",
+        "acronym": "GISM",
+        "motto": "",
+        "web": "https://gssmitc.edu.gh",
+        "established date": "1992",
+        "logo": "https://gssmitc.edu.gh/img/images/logo.png",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "Institution of Local Government Studies",
+        "acronym": "ILGS",
+        "motto": "",
+        "web": "https://www.ilgs-edu.org/index.php/en",
+        "established date": "2003",
+        "logo": "https://www.ilgs-edu.org/images/logo.png",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "Kofi Annan International Peacekeeping Training Centre",
+        "acronym": "KAIPTC",
+        "motto": "",
+        "web": "https://www.kaiptc.org",
+        "established date": "1998",
+        "logo": "https://www.kaiptc.org/wp-content/uploads/2016/12/logo.png",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "National Film and Television Institute",
+        "acronym": "NAFTI",
+        "motto": "",
+        "web": "https://www.nafti.edu.gh/pages/index.php?siteid=nafti",
+        "established date": "1978",
+        "logo": "https://www.nafti.edu.gh/themes/nafti_windows8//css/default/images/nafti_logo.png",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "Regional Maritime University",
+        "acronym": "RMU",
+        "motto": "",
+        "web": "https://rmu.edu.gh",
+        "established date": "2007",
+        "logo": "https://rmu.edu.gh/wp-content/uploads/2019/09/rmulogo-exp-3.png",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "Valley View University",
+        "acronym": "VVU",
+        "motto": "",
+        "web": "https://vvu.edu.gh",
+        "established date": "1979",
+        "logo": "https://vvu.edu.gh/images/main-pages/vvu-logo-official.jpg",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "Central University",
+        "acronym": "Central",
+        "motto": "",
+        "web": "https://www.central.edu.gh",
+        "established date": "1998",
+        "logo": "https://www.central.edu.gh/virgin/images/Central-Uni-logo.png",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "Pentecost University",
+        "acronym": "Pent Vars",
+        "motto": "",
+        "web": "https://pentvars.edu.gh",
+        "established date": "2003",
+        "logo": "https://pentvars.edu.gh/wp-content/themes/eduma-child/images/pentecost-university-logo-alt.png",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "All Nations University",
+        "acronym": "ANU",
+        "motto": "",
+        "web": "https://anu.edu.gh",
+        "established date": "2002",
+        "logo": "https://anu.edu.gh/wp-content/uploads/2020/05/anu.png",
+        "location": "Koforidua, Eastern Region"
+    },
+    {
+        "name": "Ashesi University",
+        "acronym": "Ashesi",
+        "motto": "",
+        "web": "https://www.ashesi.edu.gh",
+        "established date": "2002",
+        "logo": "https://www.ashesi.edu.gh/images/logo-mobile.png",
+        "location": "Berekuso, Eastern Region Region"
+    },
+    {
+        "name": "Accra Institute of Technology",
+        "acronym": "AIT",
+        "motto": "",
+        "web": "https://www.ait.edu.gh",
+        "established date": "2005",
+        "logo": "https://www.ait.edu.gh/assets_extracts/images/AIT_CREST.png",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "African University College of Communications",
+        "acronym": "AUCC",
+        "motto": "",
+        "web": "http://www.aucc.edu.gh",
+        "established date": "2005",
+        "logo": "http://www.aucc.edu.gh/img/logo.png",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "Anglican University College of Technology",
+        "acronym": "ANG.U.TECH",
+        "motto": "",
+        "web": "https://www.angutech.edu.gh/angutech",
+        "established date": "2008",
+        "logo": "https://www.angutech.edu.gh/angutech/wp-content/uploads/2021/06/logo-1-e1623378683611.png",
+        "location": "Nkoranza Campus, Nkoranza, Bono East Region"
+    },
+    {
+        "name": "Catholic University College of Ghana",
+        "acronym": "CUG",
+        "motto": "",
+        "web": "https://www.cug.edu.gh",
+        "established date": "2003",
+        "logo": "https://www.cug.edu.gh/images/slogo1.png",
+        "location": "Fiapre, Sunyani, Bono Region"
+    },
+    {
+        "name": "Christian Service University College",
+        "acronym": "CSUC",
+        "motto": "",
+        "web": "https://www.csuc.edu.gh/",
+        "established date": "1974",
+        "logo": "https://www.csuc.edu.gh/wp-content/uploads/2016/01/csuc_logo.png",
+        "location": "Kumasi, Ashanti Region"
+    },
+    {
+        "name": "Family Health Medical School",
+        "acronym": "FHMS",
+        "motto": "",
+        "web": "https://fhu.edu.gh",
+        "established date": "2015",
+        "logo": "https://fhu.edu.gh/wp-content/uploads/2017/08/fhu_logo_6.png",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "Islamic University College",
+        "acronym": "ICUG",
+        "motto": "",
+        "web": "https://www.iug.edu.gh/",
+        "established date": "1988",
+        "logo": "https://www.iug.edu.gh/templates/jsn_solid_pro/images/iucg/iucg-logo.png",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "Knutsford University College",
+        "acronym": "Knutsford",
+        "motto": "",
+        "web": "https://knutsford.university",
+        "established date": "1988",
+        "logo": "https://knutsford.university/pluginfile.php/1/theme_lambda/logo/1621383730/Knutsford%20University%20Logo%20Original%20edt.png",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "Lancaster University Ghana",
+        "acronym": "LUG",
+        "motto": "",
+        "web": "https://study.lancaster.edu.gh",
+        "established date": "2013",
+        "logo": "",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "Methodist University College Ghana",
+        "acronym": "MUCG",
+        "motto": "",
+        "web": "https://mucg.edu.gh",
+        "established date": "2000",
+        "logo": "https://mucg.edu.gh/wp-content/uploads/2019/07/l1.jpg",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "Presbyterian University College",
+        "acronym": "PUC",
+        "motto": "",
+        "web": "https://www.presbyuniversity.edu.gh/site",
+        "established date": "2003",
+        "logo": "https://i2.wp.com/www.presbyuniversity.edu.gh/site/wp-content/uploads/2016/10/new.jpg?fit=94%2C89&ssl=1",
+        "location": "Abetifi-Kwahu, Akropong-Akuapem, Agogo Asante-Akyem and Tema"
+    },
+    {
+        "name": "Wisconsin International University College",
+        "acronym": "WIUC",
+        "motto": "",
+        "web": "https://wiuc-ghana.edu.gh/",
+        "established date": "2000",
+        "logo": "https://wiuc-ghana.edu.gh/wp-content/uploads/2019/08/Asset-1@1.5x.png",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "Blue Crest College",
+        "acronym": "BCCG",
+        "motto": "",
+        "web": "https://bluecrest.edu.gh",
+        "established date": "2000",
+        "logo": "https://bluecrest.edu.gh/resources/img/logo-bcc.jpg",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "KAAF University College",
+        "acronym": "KUC",
+        "motto": "",
+        "web": "https://kaafuni.edu.gh",
+        "established date": "2007",
+        "logo": "https://kaafuni.edu.gh/wp-content/uploads/2019/02/KAAF2f-copy.png",
+        "location": "Gomoa Buduburam, Central Region"
+    },
+    {
+        "name": "Radford University College",
+        "acronym": "Radford",
+        "motto": "",
+        "web": "",
+        "established date": "2009",
+        "logo": "",
+        "location": "Kumasi, Ashanti Region"
+    },
+    {
+        "name": "Garden City University College",
+        "acronym": "GCUC",
+        "motto": "",
+        "web": "https://www.gcuc.edu.gh",
+        "established date": "2001",
+        "logo": "https://www.gcuc.edu.gh/images/logonew.png",
+        "location": "Kumasi, Ashanti Region"
+    },
+    {
+        "name": "Regent University College of Science and Technology",
+        "acronym": "Regent",
+        "motto": "",
+        "web": "http://www.regent.edu.gh",
+        "established date": "2003",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/RUCST_logo.jpg/220px-RUCST_logo.jpg",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "Technical University College",
+        "acronym": "TUC",
+        "motto": "",
+        "web": "https://www.tucg.edu.gh",
+        "established date": "2001",
+        "logo": "https://www.tucg.edu.gh/wp-content/uploads/2018/01/header.jpg",
+        "location": "Tamale, Northern Region"
+    },
+    {
+        "name": "Spiritan University College",
+        "acronym": "Spiritan",
+        "motto": "",
+        "web": "https://suc.edu.gh",
+        "established date": "1990",
+        "logo": "https://suc.edu.gh/wp-content/uploads/2020/07/cropped-logo-1.jpg",
+        "location": "Ejisu, Ashanti Region"
+    },
+    {
+        "name": "Data Link University College",
+        "acronym": "DLUC",
+        "motto": "",
+        "web": "https://datalink.edu.gh",
+        "established date": "1993",
+        "logo": "https://datalink.edu.gh/wp-content/uploads/2021/03/dlinewlogo2021.png",
+        "location": "Tema, Greater Accra Region"
+    },
+    {
+        "name": "Mountcrest University College",
+        "acronym": "MCUC",
+        "motto": "",
+        "web": "https://mountcrestuniversity.com",
+        "established date": "2008",
+        "logo": "https://mountcrestuniversity.com/wp-content/uploads/2018/03/main_logo.png",
+        "location": "Kanda, Accra, Greater Accra Region"
+    },
+    {
+        "name": "University College of Agriculture and Environmental Studies",
+        "acronym": "UCAES",
+        "motto": "",
+        "web": "https://www.ucaes.edu.gh",
+        "established date": "1963",
+        "logo": "https://ucaes.edu.gh/wp-content/uploads/2017/07/ucaes_logo118.png",
+        "location": "Bunso, Eastern Region"
+    },
+    {
+        "name": "Deltas University College",
+        "acronym": "DUC",
+        "motto": "",
+        "web": "",
+        "established date": "",
+        "logo": "",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "Evangelical Presbyterian University College",
+        "acronym": "EPUC",
+        "motto": "",
+        "web": "https://epuc.edu.gh/epuc",
+        "established date": "2008",
+        "logo": "https://epuc.edu.gh/epuc/wp-content/uploads/2017/05/logo.png",
+        "location": "Ho, Volta Region"
+    },
+    {
+        "name": "Ghana Baptist University College",
+        "acronym": "GBUC",
+        "motto": "",
+        "web": "https://gbuc.edu.gh",
+        "established date": "2006",
+        "logo": "https://gbuc.edu.gh/sites/default/files/GBUC_logo.png",
+        "location": "Abuakwa, Kumasi, Ashanti Region"
+    },
+    {
+        "name": "Kings University College",
+        "acronym": "KUC",
+        "motto": "",
+        "web": "https://www.kuc.edu.gh",
+        "established date": "2009",
+        "logo": "https://static.wixstatic.com/media/de88be_47d2525bf89c46f1868f79f42d56e588.jpg/v1/fill/w_104,h_104,al_c,q_80,usm_0.66_1.00_0.01/de88be_47d2525bf89c46f1868f79f42d56e588.webp",
+        "location": "Aplaku Hills, Accra, Greater Accra Region"
+    },
+    {
+        "name": "Maranatha University College",
+        "acronym": "MUC",
+        "motto": "",
+        "web": "",
+        "established date": "1972",
+        "logo": "",
+        "location": "Sowutuom,Accra, Greater Accra Region"
+    },
+    {
+        "name": "Meridian (Insaaniyya) University College",
+        "acronym": "MEDUCOL",
+        "motto": "",
+        "web": "",
+        "established date": "2007",
+        "logo": "https://s3.eu-north-1.amazonaws.com/images.free-apply.com/uni/logo/lg/1028800037/d9e6c8d74ee64e97cbd31a64816f8ddf6312c6dd.jpg",
+        "location": "Weija, Accra, Greater Accra Region"
+    },
+    {
+        "name": "Pan African Christian University College",
+        "acronym": "PACUC",
+        "motto": "",
+        "web": "",
+        "established date": "2001",
+        "logo": "",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "Advanced Business University College",
+        "acronym": "ABUC",
+        "motto": "",
+        "web": "https://www.advancedbusinesscollege.org",
+        "established date": "",
+        "logo": "https://www.advancedbusinesscollege.org/images/logo-full.png",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "Jayee University College",
+        "acronym": "JUC",
+        "motto": "",
+        "web": "https://juc.edu.gh",
+        "established date": "",
+        "logo": "https://juc.edu.gh/img/logo.png",
+        "location": "Accra, Greater Accra Region"
+    },
+    {
+        "name": "University College of Management Studies",
+        "acronym": "UCOMS",
+        "motto": "",
+        "web": "https://ucoms.edu.gh/home",
+        "established date": "1974",
+        "logo": "https://ucoms.edu.gh/home/images/LogSam1.png",
+        "location": "Accra, Greater Accra Region, Kumasi, Ashanti Region"
+    },
+    {
+        "name": "Webster University Ghana Campus",
+        "acronym": "Webster",
+        "motto": "",
+        "web": "https://webster.edu.gh",
+        "established date": "2012",
+        "logo": "https://templates2020.webster.edu/_resources/images/logos/logo-ghana.svg",
+        "location": "Luanda Close, East Legon, Accra, Greater Accra Region"
+    },
+    {
+        "name": "Ghana Christian University College",
+        "acronym": "GCUC",
+        "motto": "",
+        "web": "https://ghanacu.com",
+        "established date": "2012",
+        "logo": "https://ghanacu.com/wp-content/uploads/2020/09/lololololo.png",
+        "location": "Accra, Greater Accra Region, Kumasi, Ashanti Region"
+    },
+    {
+        "name": "Zenith University College",
+        "acronym": "ZUC",
+        "motto": "",
+        "web": "https://zucghana.org/site",
+        "established date": "2001",
+        "logo": "https://zucghana.org/site/img/logo.png",
+        "location": "La Accra, Greater Accra Region, Kumasi, Ashanti Region"
+    },
+    {
+        "name": "Ghana Bible College",
+        "acronym": "GBC",
+        "motto": "",
+        "web": "https://ghanabiblecollege.edu.gh",
+        "established date": "",
+        "logo": "https://ghanabiblecollege.edu.gh/img/logo/ww.png",
+        "location": "Akuapem, Eastern Region"
+    },
+    {
+        "name": "Ghana Communication Technology University",
+        "acronym": "GCTU",
+        "motto": "",
+        "web": "https://site.gctu.edu.gh",
+        "established date": "2005",
+        "logo": "https://site.gctu.edu.gh/wp-content/themes/gtuc/assets/images/logo.png",
+        "location": "Tesano, Accra, Greater Accra Region"
+    }
+
+]
