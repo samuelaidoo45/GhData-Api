@@ -119,6 +119,141 @@ define({ "api": [
   },
   {
     "type": "get",
+    "url": "/northeast-towns",
+    "title": "Towns in the North East Region",
+    "name": "NorthEastTowns",
+    "group": "Towns",
+    "version": "0.0.0",
+    "filename": "./routes/townsRoute.js",
+    "groupTitle": "Towns",
+    "sampleRequest": [
+      {
+        "url": "https://gh-data.herokuapp.com/northeast-towns"
+      }
+    ]
+  },
+  {
+    "type": "get",
+    "url": "/northen-towns",
+    "title": "Towns in the Northern Region",
+    "name": "NothernTowns",
+    "group": "Towns",
+    "version": "0.0.0",
+    "filename": "./routes/townsRoute.js",
+    "groupTitle": "Towns",
+    "sampleRequest": [
+      {
+        "url": "https://gh-data.herokuapp.com/northen-towns"
+      }
+    ]
+  },
+  {
+    "type": "get",
+    "url": "/oti-towns",
+    "title": "Towns in the Oti Region",
+    "name": "OtiTowns",
+    "group": "Towns",
+    "version": "0.0.0",
+    "filename": "./routes/townsRoute.js",
+    "groupTitle": "Towns",
+    "sampleRequest": [
+      {
+        "url": "https://gh-data.herokuapp.com/oti-towns"
+      }
+    ]
+  },
+  {
+    "type": "get",
+    "url": "/savannah-towns",
+    "title": "Towns in the Savannah Region",
+    "name": "SavannahTowns",
+    "group": "Towns",
+    "version": "0.0.0",
+    "filename": "./routes/townsRoute.js",
+    "groupTitle": "Towns",
+    "sampleRequest": [
+      {
+        "url": "https://gh-data.herokuapp.com/savannah-towns"
+      }
+    ]
+  },
+  {
+    "type": "get",
+    "url": "/uppereast-towns",
+    "title": "Towns in the Upper East Region",
+    "name": "UpperEastTowns",
+    "group": "Towns",
+    "version": "0.0.0",
+    "filename": "./routes/townsRoute.js",
+    "groupTitle": "Towns",
+    "sampleRequest": [
+      {
+        "url": "https://gh-data.herokuapp.com/uppereast-towns"
+      }
+    ]
+  },
+  {
+    "type": "get",
+    "url": "/upperwest-towns",
+    "title": "Towns in the Upper West Region",
+    "name": "UpperWestTowns",
+    "group": "Towns",
+    "version": "0.0.0",
+    "filename": "./routes/townsRoute.js",
+    "groupTitle": "Towns",
+    "sampleRequest": [
+      {
+        "url": "https://gh-data.herokuapp.com/upperwest-towns"
+      }
+    ]
+  },
+  {
+    "type": "get",
+    "url": "/volta-towns",
+    "title": "Towns in the Volta Region",
+    "name": "VoltaTowns",
+    "group": "Towns",
+    "version": "0.0.0",
+    "filename": "./routes/townsRoute.js",
+    "groupTitle": "Towns",
+    "sampleRequest": [
+      {
+        "url": "https://gh-data.herokuapp.com/volta-towns"
+      }
+    ]
+  },
+  {
+    "type": "get",
+    "url": "/westernnorth-towns",
+    "title": "Towns in the Western North Region",
+    "name": "WesternMpthTowns",
+    "group": "Towns",
+    "version": "0.0.0",
+    "filename": "./routes/townsRoute.js",
+    "groupTitle": "Towns",
+    "sampleRequest": [
+      {
+        "url": "https://gh-data.herokuapp.com/westernnorth-towns"
+      }
+    ]
+  },
+  {
+    "type": "get",
+    "url": "/western-towns",
+    "title": "Towns in the Western Region",
+    "name": "WesternTowns",
+    "group": "Towns",
+    "version": "0.0.0",
+    "filename": "./routes/townsRoute.js",
+    "groupTitle": "Towns",
+    "sampleRequest": [
+      {
+        "url": "https://gh-data.herokuapp.com/western-towns"
+      }
+    ]
+  },
+  {
+    "type": "get",
     "url": "/universities",
     "title": "Universities in Ghana",
     "name": "universitiesInGhana",

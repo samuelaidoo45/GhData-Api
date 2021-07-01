@@ -59,6 +59,81 @@ router.get('/central-towns',getData);
 
 router.get('/eastern-towns',getData);
 
+/**
+*@api {get} /northeast-towns Towns in the North East Region 
+*@apiName NorthEastTowns
+*@apiGroup Towns
+*
+*/
+
+router.get('/northeast-towns',getData);
+/**
+*@api {get} /northen-towns Towns in the Northern Region 
+*@apiName NothernTowns
+*@apiGroup Towns
+*
+*/
+router.get('/northen-towns',getData);
+
+/**
+*@api {get} /oti-towns Towns in the Oti Region 
+*@apiName OtiTowns
+*@apiGroup Towns
+*
+*/
+
+router.get('/oti-towns',getData);
+
+
+/**
+*@api {get} /savannah-towns Towns in the Savannah Region 
+*@apiName SavannahTowns
+*@apiGroup Towns
+*
+*/
+router.get('/savannah-towns',getData);
+
+/**
+*@api {get} /uppereast-towns Towns in the Upper East Region 
+*@apiName UpperEastTowns
+*@apiGroup Towns
+*
+*/
+router.get('/uppereast-towns',getData);
+
+/**
+*@api {get} /upperwest-towns Towns in the Upper West Region 
+*@apiName UpperWestTowns
+*@apiGroup Towns
+*
+*/
+router.get('/upperwest-towns',getData);
+
+/**
+*@api {get} /volta-towns Towns in the Volta Region 
+*@apiName VoltaTowns
+*@apiGroup Towns
+*
+*/
+router.get('/volta-towns',getData);
+
+/**
+*@api {get} /western-towns Towns in the Western Region 
+*@apiName WesternTowns
+*@apiGroup Towns
+*
+*/
+router.get('/western-towns',getData);
+
+/**
+*@api {get} /westernnorth-towns Towns in the Western North Region 
+*@apiName WesternMpthTowns
+*@apiGroup Towns
+*
+*/
+router.get('/westernnorth-towns',getData);
+
+
 
 
 module.exports = router;
