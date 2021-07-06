@@ -266,5 +266,20 @@ define({ "api": [
         "url": "https://gh-data.herokuapp.com/universities"
       }
     ]
+  },
+  {
+    "type": "get",
+    "url": "/mps",
+    "title": "Members of Parliament",
+    "name": "MembersOfParliament",
+    "group": "MP's",
+    "version": "0.0.0",
+    "filename": "./routes/mpsRoute.js",
+    "groupTitle": "Members Of Parliament",
+    "sampleRequest": [
+      {
+        "url": "https://gh-data.herokuapp.com/mps"
+      }
+    ]
   }
 ] });
