@@ -23,9 +23,24 @@
     "url": "",
     "version": "0.0.0",
     "filename": "./doc/main.js",
-    "group": "C:\\Users\\steph\\Documents\\appdev\\api\\ghdata\\doc\\main.js",
-    "groupTitle": "C:\\Users\\steph\\Documents\\appdev\\api\\ghdata\\doc\\main.js",
+    "group": "C:\\Users\\Eugene\\Projects\\MyProjects\\Api's\\Rest Api's\\GhData\\doc\\main.js",
+    "groupTitle": "C:\\Users\\Eugene\\Projects\\MyProjects\\Api's\\Rest Api's\\GhData\\doc\\main.js",
     "name": ""
+  },
+  {
+    "type": "get",
+    "url": "/mps",
+    "title": "Members Of Parliament",
+    "name": "MembersOfParliament",
+    "group": "MP's",
+    "version": "0.0.0",
+    "filename": "./routes/mpsRoute.js",
+    "groupTitle": "MP's",
+    "sampleRequest": [
+      {
+        "url": "https://gh-data.herokuapp.com/mps"
+      }
+    ]
   },
   {
     "type": "get",
@@ -264,21 +279,6 @@
     "sampleRequest": [
       {
         "url": "https://gh-data.herokuapp.com/universities"
-      }
-    ]
-  },
-  {
-    "type": "get",
-    "url": "/mps",
-    "title": "Members of Parliament",
-    "name": "MembersOfParliament",
-    "group": "MP's",
-    "version": "0.0.0",
-    "filename": "./routes/mpsRoute.js",
-    "groupTitle": "Members Of Parliament",
-    "sampleRequest": [
-      {
-        "url": "https://gh-data.herokuapp.com/mps"
       }
     ]
   }

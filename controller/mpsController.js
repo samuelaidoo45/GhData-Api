@@ -4,7 +4,7 @@ hd = new header()
 
 var datapath = './ghdata/members_of_parliament';
 
-const getMembersOfParliament = (req,res,next)=>
+const MembersOfParliament = (req,res,next)=>
 {
     res.header(hd.allowOrigin.key, hd.allowOrigin.value );
     res.header(hd.allowHeadrs.key,hd.allowHeadrs.value );
@@ -15,4 +15,4 @@ const getMembersOfParliament = (req,res,next)=>
 }
 
 
-module.exports = {getMembersOfParliament};
+module.exports = {MembersOfParliament};
