@@ -2,7 +2,7 @@ const fs = require("fs")
 const header = require('../dataObject/Header')
 hd = new header()
 
-var datapath = './ghdata/members_of_parliament';
+var datapath = './ghdata/members_of_parliament/';
 
 const MembersOfParliament = (req,res,next)=>
 {

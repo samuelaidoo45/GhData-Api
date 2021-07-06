@@ -3,6 +3,6 @@
     "version": "1.0.0",
     "description": "Data on Ghana",
     "title": "GHData",
-    "sampleUrl": "https://gh-data.herokuapp.com",
-    "url" : "https://gh-data.herokuapp.com"
+    "sampleUrl": "http://localhost:3000",
+    "url" : "http://localhost:3000"
   }
