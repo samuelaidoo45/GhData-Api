@@ -7,7 +7,7 @@ const path = require('path');
 
 // app.use(express.static('/home/tivateo2/app.tivateonline.com/ghdata/doc'));
 
-app.use(express.static(__dirname + '/doc'));
+app.use(express.static('/home/tivateo2/app.tivateonline.com/ghdata/' + '/doc'));
 //const http = require('http');
 const fs = require('fs');
 
