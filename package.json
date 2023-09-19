@@ -2,11 +2,11 @@
   "name": "ghdata",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs": "apidoc -i ./ -e node_modules - o ./docs",
-    "start": "node app.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
