@@ -15,9 +15,9 @@ app.set('view engine', 'pug');
 
 app.use(express.json());
 
-app.use('/', townsRoute);//connecting to route
-app.use('/', universitiesRoute);
-app.use('/', mpsRoute);
+app.use('/ghdata', townsRoute);//connecting to route
+app.use('/ghdata', universitiesRoute);
+app.use('/ghdata', mpsRoute);
 
 
 // // Serve the index.html for any route
@@ -25,7 +25,7 @@ app.use('/', mpsRoute);
 //   res.sendFile(path.join('/home/tivateo2/app.tivateonline.com/ghdata/doc', 'index.html'));
 // });
 
-app.get('/', function(req, res) { 
+app.get('/ghdata', function(req, res) { 
     res.sendFile('index.html',{root: '/home/tivateo2/app.tivateonline.com/ghdata/'});
 });//rendering index page
 
