@@ -26,7 +26,7 @@ app.use('/ghdata', mpsRoute);
 // });
 
 app.get('/ghdata', function(req, res) { 
-    res.sendFile('index.html',{root: '/home/tivateo2/app.tivateonline.com/ghdata/'});
+    res.sendFile('index.html',{root: '/home/tivateo2/app.tivateonline.com/ghdata/doc'});
 });//rendering index page
 
 // LISTENING TO SERVER
