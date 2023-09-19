@@ -18,11 +18,11 @@ app.use('/', townsRoute);//connecting to route
 app.use('/', universitiesRoute);
 app.use('/', mpsRoute);
 
-app.use(express.static('/home/tivateo2/app.tivateonline.com/ghdata/'));
+app.use(express.static('/home/tivateo2/app.tivateonline.com/ghdata/doc'));
 
 // Serve the index.html for any route
 app.get('*', (req, res) => {
-  res.sendFile(path.join('/home/tivateo2/app.tivateonline.com/ghdata/', 'index.html'));
+  res.sendFile(path.join('/home/tivateo2/app.tivateonline.com/ghdata/doc', 'index.html'));
 });
 
 // app.get('/ghdata', function(req, res) { 
