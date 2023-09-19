@@ -16,7 +16,7 @@ app.use('/', townsRoute);//connecting to route
 app.use('/', universitiesRoute);
 app.use('/', mpsRoute);
 
-app.get('/', function(req, res) { 
+app.get('/ghdata', function(req, res) { 
     res.sendFile('index.html',{root: __dirname});
 });//rendering index page
 
