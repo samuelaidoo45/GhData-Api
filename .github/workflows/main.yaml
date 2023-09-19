@@ -1,0 +1,52 @@
+name: Build and Deploy to cPanel
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2 
+     
+      - name: Deploy to cPanel
+        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        with:
+          server: tivateonline.com
+          username: tivateo2
+          password: -H#E#!b9)4p3V@D
+          protocol: ftp
+          server-dir: /app.tivateonline.com/ghdata/
+          local-dir: ./
+
+
+# name: Build and Deploy to cPanel
+# on:
+#   push:
+#     branches:
+#       - main
+# jobs:
+#   build-and-deploy:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v2 
+#       - name: Install dependencies
+#         run: |
+#           npm install
+#           CI=false npm run build
+#       - name: Copy files to API folder
+#         run: mv build api
+#       - name: Deploy to cPanel
+#         uses: SamKirkland/FTP-Deploy-Action@4.1.0
+#         with:
+#           server: ${{ secrets.CPANEL_HOST }}
+#           username: ${{ secrets.CPANEL_USERNAME }}
+#           password: ${{ secrets.CPANEL_PASSWORD }}
+#           protocol: ftp
+#           server-dir: /app.tivateonline.com/pomodoropal/
+#           local-dir: ./api/
+
+          
+
