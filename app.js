@@ -7,7 +7,7 @@ const path = require('path');
 
 // app.use(express.static('/home/tivateo2/app.tivateonline.com/ghdata/doc'));
 
-app.use(express.static('/home/tivateo2/app.tivateonline.com/ghdata/' + '/doc'));
+app.use(express.static('/home/tivateo2/app.tivateonline.com/ghdata/' + '/doc/'));
 //const http = require('http');
 const fs = require('fs');
 
@@ -26,7 +26,7 @@ app.use('/ghdata', mpsRoute);
 // });
 
 app.get('/ghdata', function(req, res) { 
-    res.sendFile('index.html',{root: '/home/tivateo2/app.tivateonline.com/ghdata/doc'});
+    res.sendFile('index.html',{root: '/home/tivateo2/app.tivateonline.com/ghdata/doc/'});
 });//rendering index page
 
 // LISTENING TO SERVER
