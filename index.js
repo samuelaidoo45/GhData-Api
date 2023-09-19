@@ -21,13 +21,13 @@ app.use('/', mpsRoute);
 
 
 // // Serve the index.html for any route
-app.get('*', (req, res) => {
-  res.sendFile(path.join('/home/tivateo2/app.tivateonline.com/ghdata/doc', 'index.html'));
-});
+// app.get('*', (req, res) => {
+//   res.sendFile(path.join('/home/tivateo2/app.tivateonline.com/ghdata/doc', 'index.html'));
+// });
 
-// app.get('/ghdata', function(req, res) { 
-//     res.sendFile('index.html',{root: __dirname});
-// });//rendering index page
+app.get('/', function(req, res) { 
+    res.sendFile('index.html',{root: '/home/tivateo2/app.tivateonline.com/ghdata/'});
+});//rendering index page
 
 // LISTENING TO SERVER
 app.listen(process.env.PORT || 3000);
