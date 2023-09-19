@@ -3,6 +3,8 @@ const app = express();
 const townsRoute = require('./routes/townsRoute');
 const universitiesRoute = require('./routes/universitiesRoute');
 const mpsRoute = require('./routes/mpsRoute');
+const path = require('path');
+
 
 app.use(express.static(__dirname + '/doc'));
 //const http = require('http');
